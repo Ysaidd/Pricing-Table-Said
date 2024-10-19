@@ -1,0 +1,106 @@
+*{
+    text-align: center;
+}
+
+td{
+    height: 45px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h1{
+    font-weight: bold;
+}
+
+.lista-aside ul{
+    margin-top: 150px;
+}
+
+.lista-aside ul li{
+    list-style: none;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+table{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.precio{
+    height: 220px;
+}
+
+.precio h2{
+    color: #3762e4;
+    font-size: 1.2rem;
+   
+}
+
+.precio p{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.precio small{
+    font-size: 1rem;
+}
+
+.aside{
+    width: 12%;
+    text-align: left;
+    font-weight: 600;
+}
+
+tr, td{
+    margin-bottom: 40px;
+}
+
+.popular{
+    background-color: #121826;
+    color: white;
+    border-bottom: 1px unset #4D5562;
+}
+
+.precio.popular{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.popular h2{
+    display: inline;
+    background-color: #3762e4;
+    border-radius: 15px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+    color: white;
+}
+
+tfoot{
+    cursor: pointer;
+    height: 70px;
+    color: #3762e4;
+    font-weight: bold;
+}
+
+tfoot .popular{
+    background-color: #E9A23B;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media (max-width:992px){
+    table{
+        width: 100% !important;
+    }
+
+    tr th{
+        width: 100px !important;
+    }
+
+    .aside{
+        width: 60px !important;
+        padding-right: 10px;
+    }
+}
